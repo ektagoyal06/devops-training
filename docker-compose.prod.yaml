@@ -1,0 +1,10 @@
+services:
+#  mru-exp-img:
+#   environment:
+#    - NODE_ENV=production
+#   command: npm run prod
+
+ mru-prod-img:
+  environment:
+   - NODE_ENV=production
+  command: npm run prod

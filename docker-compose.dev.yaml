@@ -1,0 +1,14 @@
+services:
+  mru-exp-img:
+    #anonymous volumes
+    volumes:
+      - .:/app:ro
+    environment:
+     - NODE_ENV=development
+    command: npm run dev
+
+# docker tag local-image:tagname new-repo: my-app-mru-exp-img
+# docker push new-repo: my-app-mru-exp-img
+
+# 
+
